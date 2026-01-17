@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "bug-01",
+      "name": "bug_01",
+      "category": "ui",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "bug-02",
+      "name": "bug_02",
+      "category": "backend",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "bug-03",
+      "name": "bug_03",
+      "category": "infra",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "bug-04",
+      "name": "bug_04",
+      "category": "security",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "bug-05",
+      "name": "bug_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "bug-06",
+      "name": "bug_06",
+      "category": "backend",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "bug-07",
+      "name": "bug_07",
+      "category": "infra",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "bug-08",
+      "name": "bug_08",
+      "category": "security",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "bug-09",
+      "name": "bug_09",
+      "category": "ui",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "bug-10",
+      "name": "bug_10",
+      "category": "backend",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "bug-11",
+      "name": "bug_11",
+      "category": "infra",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "bug-12",
+      "name": "bug_12",
+      "category": "security",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "bug-12",
+    "issue_count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "project_title": "Bug Triage Board",
+  "goal": "Rank incoming bugs and highlight triage bottlenecks.",
+  "entity_name": "bug",
+  "amount_label": "severity_points",
+  "score_label": "impact_score",
+  "categories": [
+    "ui",
+    "backend",
+    "infra",
+    "security"
+  ]
+}
